@@ -118,10 +118,10 @@
 }
 
 .container {
-  width: 450px;
+  width: 550px;
   height: 350px;
   background-color: white;
-  margin-left: 18%;
+  margin-left: 10%;
 
 }
 
@@ -215,6 +215,7 @@
 }
 
 .Top {
+  
   margin: 40px;
   padding: 0;
   text-decoration:none;
@@ -258,4 +259,9 @@
   background-color: beige;
   width: 250px;
   height: 310px;
+}
+
+.datagraph1 {
+  width: 550px;
+  height: 450px;
 }
