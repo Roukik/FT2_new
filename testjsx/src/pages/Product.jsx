@@ -1,8 +1,8 @@
 
 import React from 'react';
-import App from './nain.css';
+import './nain.css';
 
-const TrainList = () => {
+const Product = () => {
   const [selectedTrain, setSelectedTrain] = useState(null);
 
   const trains = [
