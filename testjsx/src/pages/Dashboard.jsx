@@ -7,6 +7,7 @@ import Cartemois from  "../components/cartemois.png";
 import Carteannuel from  "../components/carteannuel.png";
 import Donutmois from '../components/donutmois.jsx'
 import Donutannuel from '../components/donutannuel.jsx';
+import Voyageur from '../components/p.png';
 
 function Dashboard () {
   return (
@@ -23,7 +24,9 @@ function Dashboard () {
         <p>Top OD impactées par Intempéries (Tous)</p>
         </div>
         <div className="rectangles1">
-          <div className="rectangle" id="rectangle1"></div>
+          <div className="rectangle" id="rectangle1">
+            <img src= {Voyageur} alt="" className="voyageurs"/>
+          </div>
           <div className="rectangle" id="rectangle2"></div>
           <div className="rectangle" id="rectangle3"></div>  
          </div>
