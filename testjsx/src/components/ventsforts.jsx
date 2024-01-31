@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import ApexCharts from 'react-apexcharts';
+import ApexCharts from 'react-apexcharts'; 
+import Datagraph2 from '../../datagraph2.json'
 
 const Ventsforts = () => {
-  // Définissez l'état initial avec vos options de graphique
+  
   const [chartOptions, setChartOptions] = useState({
     series: [{
       data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
