@@ -1,5 +1,6 @@
 
 import React from 'react';
+import App from './nain.css';
 
 const TrainList = () => {
   const [selectedTrain, setSelectedTrain] = useState(null);
